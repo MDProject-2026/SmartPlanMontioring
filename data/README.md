@@ -1,0 +1,1 @@
+The SQLite database is created automatically on first backend launch. Sensor records are stored locally in `smart_plant.sqlite3`; do not commit this database if it contains personal or deployment data. Back it up before deleting it. AI analytics require a sufficiently long history of real readings; simulator data should not be used to claim real-world accuracy.
